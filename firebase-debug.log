@@ -1,0 +1,23 @@
+[debug] [2018-10-10T09:49:20.688Z] ----------------------------------------------------------------------
+[debug] [2018-10-10T09:49:20.693Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\senoa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-10-10T09:49:20.693Z] CLI Version:   5.0.1
+[debug] [2018-10-10T09:49:20.693Z] Platform:      win32
+[debug] [2018-10-10T09:49:20.693Z] Node Version:  v8.12.0
+[debug] [2018-10-10T09:49:20.694Z] Time:          Wed Oct 10 2018 16:49:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-10-10T09:49:20.694Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-10T09:49:20.717Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-10T09:49:20.718Z] > authorizing via signed-in user
+[debug] [2018-10-10T09:49:20.719Z] [iam] checking project badu-e33dd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-10T09:49:20.722Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/badu-e33dd:testIamPermissions  
+
+[debug] [2018-10-10T09:49:22.535Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-10T09:49:22.537Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/badu-e33dd  
+ 
+[debug] [2018-10-10T09:49:25.058Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'badu-e33dd'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-10-10T09:49:25.070Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/badu-e33dd/versions  
+
