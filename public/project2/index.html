@@ -1,49 +1,47 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
-	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
-	<link rel="icon" href="../images/s.jpg">
-	<link rel="stylesheet" href="./style.css">
-	<title>Seno Agung - MWS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+    <link rel="icon" href="../images/s.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Seno Agung - MWS</title>
 </head>
 
 <body>
-	<div class="container">
-		<div class="menu">
-			<a href="../index.html">
-				<img class="img-icon" src="../images/homepage.png">
-				<span>Home</span></a>
-		</div>
-		<div class="sidebar">
-			<div>
-				<img class="img-profil" width="200px" height="200px" src="../images/map.png">
-				<p class="title-page">
-					Project 2 : <br>
-					Lokasi Istimewa dengan MapBox
-				</p>
-			</div>
-		</div>
-		<div class="konten2" id="konten">
-		<div id="mapid"></div>	
-		</div>
-		<script>
-			//var mapboxgl = require('node_modules/mapbox-gl/dist/mapbox-gl.js');
-			mapboxgl.accessToken = 'pk.eyJ1IjoiYXJub2xkYXJtYW5kbzA3IiwiYSI6ImNqbWV5ZW5ueTFvMjAzcWxodWk5aW1pNWkifQ.vpy9jJBkKHo_CJpC9XXcYw';
-			var map = new mapboxgl.Map({
-			container: 'mapid',
-			center: [112.791443, -7.246735], 
-			zoom: 15, 
-			style: 'mapbox://styles/mapbox/streets-v10'
-		});
-		map.addControl(new mapboxgl.NavigationControl());
-		
-		</script>		
-		<div class="footer">
-			<p>© 2018. <a href="https://www.instagram.com/seno_agung">Seno Agung Pradityo</a></p>
-		</div>
-	</div>
+    <div class="container">
+        <div class="menu">
+            <a href="../index.html">
+                <img class="img-icon" src="../images/homepage.png">
+                <span>Halaman Utama</span></a>
+        </div>
+        <div class="sidebar">
+            <div>
+                <img class="img-profil" width="200px" height="200px" src="../images/map.png">
+                <p class="title-page">
+                    Project 2 : <br> Lokasi Istimewa dengan MapBox
+                </p>
+            </div>
+        </div>
+        <div class="konten2" id="konten">
+            <div id="mapid"></div>
+        </div>
+        <script>
+            //var mapboxgl = require('node_modules/mapbox-gl/dist/mapbox-gl.js');
+            mapboxgl.accessToken = 'pk.eyJ1IjoiYXJub2xkYXJtYW5kbzA3IiwiYSI6ImNqbWV5ZW5ueTFvMjAzcWxodWk5aW1pNWkifQ.vpy9jJBkKHo_CJpC9XXcYw';
+            var map = new mapboxgl.Map({
+                container: 'mapid',
+                center: [112.791443, -7.246735],
+                zoom: 15,
+                style: 'mapbox://styles/mapbox/streets-v10'
+            });
+            map.addControl(new mapboxgl.NavigationControl());
+        </script>
+        <div class="footer">
+            <p>© 2018. <a href="https://www.instagram.com/seno_agung">Seno Agung Pradityo</a></p>
+        </div>
+    </div>
 </body>
 
 </html>
